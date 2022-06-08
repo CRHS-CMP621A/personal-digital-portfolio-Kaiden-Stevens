@@ -1,19 +1,73 @@
-.header {
-background-color: rgb(100, 100, 100);
-display:flex;
-columns: auto auto auto auto;
-justify-content: space-around;
+.picture {
+height: 720px;
+width: 1280px;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+background-image: url("saul-goodman-better-call-saul.gif");
+display:grid;
+background-size: cover;
 }
+.body{
+  display: none;
+}
+.heading{
+  display: block;
+}
+.h1{
+  text-align: center;
+}
+.tile{
+    background-color: grey;
+    border: 1px solid black;
+}
+.newImg{
+  display: none;
+}
+.guessing{
+    font-size: 24;
+  }
 .bodyBackground{
 background-color: rgb(182, 182, 182);
 
 }
-#hLink1{
-background-color:rgb(255, 0, 170);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-#hLink2{
-background-color: rgb(0, 255, 221);
+
+li {
+  float: left;
 }
-#hLink3{
-background-color:rgb(30, 255, 0);
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#GAMETIME{
+  background-color: red;
+  text-align: right;
+  
+}
+#GAMETIME:hover{
+  background-color: rgb(128, 2, 2);
+  text-align: right;
+  
+}
+
+footer{
+  text-align: right;
+  
 }
